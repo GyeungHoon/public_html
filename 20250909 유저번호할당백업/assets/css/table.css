@@ -1,0 +1,58 @@
+.main{width: 100%; margin: auto;}
+.main > .phone_status {width: 1900px; margin: auto; display: flex; justify-content: center; padding-top: 70px; position: relative;}
+.main > .phone_status > div > span{font-size: 14px; font-weight: 900; position: sticky; top: 0; background-color: white;}
+.row {border: 1px solid #ddd; display: contents;}
+.cell {padding: 5px; border-right: 1px solid #ddd; text-align: center; font-size: 12px; font-weight: 900;}
+.cellBg{background-color: rgb(250, 241, 222);}
+.cellOnOff{color: rgb(224, 223, 223);}
+.table {display: grid; grid-template-columns: 80px 100px 40px 115px 115px 115px 115px 115px 115px 115px 115px 115px 115px 115px 115px 115px; gap: 1px;}
+.main > .page_section {width: 1900px; margin: auto; display: flex; justify-content: center;}
+.main > .page_section > .pageBtn > form > span > button {width: 100px; height: 30px; margin: 20px 3px 0 0; border-radius: 10px; background-color: rgb(247, 201, 141); cursor: pointer; }
+.main > .page_section > .pageBtn > form > span > button:active{background-color: rgb(177, 145, 104);}
+.statusCount {width: 1200px; margin-top: 10px; text-align: center; position: absolute; top:0px; left: 50%; transform: translateX(-50%);};
+.xlsxDownload {display: inline-block;}
+
+.xlsxDownload {
+    position: absolute;
+    top: -50px;
+    right: 120px;
+}
+.xlsxDownload > span > button {
+    width: 100px;
+    height: 30px;
+    margin: 20px 3px 0 0;
+    border-radius: 10px;
+    background-color: rgb(245, 214, 174);
+    cursor: pointer;
+}
+.xlsxDownload > span > button:active {
+    background-color: rgb(211, 182, 143);
+}
+
+#top-btn { 
+    display: none; 
+    position: fixed;
+    bottom: 40px;
+    /* right: 40px; */
+    left: 50%;
+    transform: translate(0%, -50%);
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid #dbdbdb;
+    outline: none;
+    cursor: pointer;
+    /* padding: 10px; */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #0f0f0f;
+
+    transition: background-color 0.4s ease, border 0.4s ease;
+}
+
+#top-btn:hover{
+    background-color: rgba(221, 221, 221, 0.5);
+    border: 2px solid #b3b3b3;
+}

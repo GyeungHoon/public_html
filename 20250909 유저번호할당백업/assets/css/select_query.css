@@ -1,0 +1,527 @@
+.topSection {
+    width: 1520px;
+    margin: auto;
+    display: flex
+}
+
+.userManagement {
+    width: 50%;
+    height: 600px;
+    margin-top: 50px;
+    padding-top: 30px;
+    border: 2px solid #565788;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 8px 8px 10px #888
+}
+
+.userManagement>.ufSelect {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center
+}
+
+.userManagement>.ufSelect>form>select {
+    width: 238px;
+    height: 30px;
+    padding: 0 5px;
+    font-weight: 900;
+    color: #474747;;
+}
+
+.userManagement>.ufSelect>form>button {
+    width: 120px;
+    height: 30px;
+    background-color: #fff;
+    color: #565788;
+    font-weight: 900;
+    border-image-source: linear-gradient(to right, #565788 0%, #505a75 100%);
+    border-image-width: 2px;
+    border-image-slice: 1;
+    cursor: pointer
+}
+
+.userManagement>.ufSelect>form>button:hover {
+    background: linear-gradient(to bottom, #565788 0%, #505a75 100%);
+    color: #fff
+}
+
+.userManagement>.userAdd {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center
+}
+
+.userManagement>.userAdd>button {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    color: #565788;
+    font-weight: 900;
+    border-image-source: linear-gradient(to right, #565788 0%, #505a75 100%);
+    border-image-width: 2px;
+    border-image-slice: 1;
+    cursor: pointer
+}
+
+.userManagement>.userAdd>button:hover {
+    background: linear-gradient(to bottom, #565788 0%, #505a75 100%);
+    color: #fff
+}
+
+.userManagement>.userLogout {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #565788;
+    font-weight: 900;
+    border-image-source: linear-gradient(to right, #565788 0%, #505a75 100%);
+    border-image-width: 2px;
+    border-image-slice: 1;
+    cursor: pointer
+}
+
+.userManagement>.userLogout>button {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    color: #565788;
+    font-weight: 900;
+    border-image-source: linear-gradient(to right, #565788 0%, #505a75 100%);
+    border-image-width: 2px;
+    border-image-slice: 1;
+    cursor: pointer
+}
+
+.userManagement>.userLogout>button:hover {
+    background: linear-gradient(to bottom, #565788 0%, #505a75 100%);
+    color: #fff
+}
+
+.userManagement>.totalUser {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900
+}
+
+.inputNum {
+    border-top: 1px solid #000;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center
+}
+
+.inputNum label {
+    font-size: 16px;
+    font-weight: 900
+}
+
+.inputNum input {
+    width: 80px;
+    height: 30px
+}
+
+.inputNum button {
+    width: 80px;
+    height: 30px;
+    background-color: #fff;
+    color: #565788;
+    font-weight: 900;
+    border-image-source: linear-gradient(to right, #565788 0%, #505a75 100%);
+    border-image-width: 2px;
+    border-image-slice: 1;
+    cursor: pointer
+}
+
+.inputNum button:hover {
+    background: linear-gradient(to bottom, #565788 0%, #505a75 100%);
+    color: #fff
+}
+
+.userManagement>.coinAdd {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px
+}
+
+.userManagement>.coinAdd>form>select {
+    width: 380px;
+    height: 30px;
+    padding: 5px;
+    color: #474747;
+    font-weight: 900;
+}
+.userManagement>.coinAdd>form>label{
+    font-weight: 900;
+    color: #978383;
+}
+
+.userManagement>.coinAdd>form>input {
+    width: 80px;
+    height: 30px;
+}
+
+.userManagement>.coinAdd>form>button {
+    width: 80px;
+    height: 30px;
+    background-color: #fff;
+    color: #565788;
+    font-weight: 900;
+    border-image-source: linear-gradient(to right, #565788 0%, #505a75 100%);
+    border-image-width: 2px;
+    border-image-slice: 1;
+    cursor: pointer
+}
+
+.userManagement>.coinAdd>form>button:hover {
+    background: linear-gradient(to bottom, #565788 0%, #505a75 100%);
+    color: #fff
+}
+
+.userManagement>.coinMinus {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px
+}
+
+.userManagement>.coinMinus>form>select {
+    width: 380px;
+    height: 30px;
+    padding: 5px;
+    color: #474747;
+    font-weight: 900;
+}
+.userManagement>.coinMinus>form>label{
+    font-weight: 900;
+    color: #978383;
+}
+
+.userManagement>.coinMinus>form>input {
+    width: 80px;
+    height: 30px
+}
+
+.userManagement>.coinMinus>form>button {
+    width: 80px;
+    height: 30px;
+    background-color: #fff;
+    color: #565788;
+    font-weight: 900;
+    border-image-source: linear-gradient(to right, #565788 0%, #505a75 100%);
+    border-image-width: 2px;
+    border-image-slice: 1;
+    cursor: pointer
+}
+
+.userManagement>.coinMinus>form>button:hover {
+    background: linear-gradient(to bottom, #565788 0%, #505a75 100%);
+    color: #fff
+}
+
+.coin_history_info {
+    width: 80%;
+    height: 175px;
+    margin: auto;
+    margin-top: 30px
+}
+
+.coin_history_info>h3 {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 16px
+}
+
+.coin_history_info > div {
+    overflow: auto;
+    height: 160px;
+    border: 1px solid #bbb;
+    background-color: rgb(253, 242, 218);
+}
+
+.coin_history_info>div div {
+    width: 90%;
+    margin: auto
+}
+
+.coin_history_info>div div span {
+    display: inline-block
+}
+
+.coin_history_info>div div span:nth-child(1) {
+    width: 220px
+}
+
+.coin_history_info>div div span:nth-child(2) {
+    width: 140px
+}
+
+.coin_history_info>div div span:nth-child(3) {
+    width: 140px
+}
+
+.userList {
+    width: 50%;
+    height: 600px;
+    margin-top: 50px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #565788;
+    border-left: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 8px 8px 10px #888;
+    overflow: auto;
+}
+
+.userList>ul {
+    width: 80%;
+    margin: 10px 0 0 0
+}
+
+.userList>ul hr {
+    margin: 0
+}
+
+.userList>ul>li {
+    position: relative;
+    top: 13px;
+    color: #616161;
+    font-weight: 700;
+}
+
+.userList>ul>li span:nth-child(1) {
+    color: blue;
+    font-weight: 900
+}
+
+.userList>ul>li span:nth-child(2) {
+    color: red;
+    font-weight: 900
+}
+
+.userList>ul>button {
+    width: 80px;
+    height: 30px;
+    position: relative;
+    top: -10px;
+    left: 85%;
+    background-color: #fff;
+    color: #565788;
+    font-weight: 900;
+    border-image-source: linear-gradient(to right, #565788 0%, #505a75 100%);
+    border-image-width: 2px;
+    border-image-slice: 1;
+    cursor: pointer
+}
+
+.userList>ul>button:hover {
+    background: linear-gradient(to bottom, #f12626 0%, #e23232 100%);
+    color: #fff
+}
+
+.towerSection {
+    width: 1520px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px
+}
+
+.towerSection>.towerAdd {
+    width: 760px;
+    height: 450px;
+    margin-top: 50px;
+    padding: 20px 80px 0 40px;
+    border: 2px solid #565788;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 8px 8px 10px #888
+}
+
+.towerSection>.towerAdd>h3 {
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.towerSection>.towerDelete {
+    width: 760px;
+    height: 450px;
+    margin-top: 50px;
+    padding: 20px 80px 0 40px;
+    background-color: #fff;
+    border: 2px solid #565788;
+    border-left: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 8px 8px 10px #888
+}
+
+.towerSection>.towerDelete>h3 {
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.towerSection>.TowerWaiting {
+    display: block
+}
+
+.TowerWaiting > form {
+    position: relative;
+}
+.TowerWaiting > form > button {
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    color: #565788;
+    font-weight: 900;
+    border-image-source: linear-gradient(to right, #565788 0%, #505a75 100%);
+    border-image-width: 2px;
+    border-image-slice: 1;
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+}
+
+.TowerWaiting>form>button:hover {
+    background: linear-gradient(to bottom, #565788 0%, #505a75 100%);
+    color: #fff
+}
+
+.towerSection > .towerAdd > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.towerSection > .towerDelete > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+input::placeholder{
+  color: #d9d9d9
+}
+.dust-class{
+  display: inline-block;
+  position: relative;
+}
+.dust-class label{
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  left: 14px;
+  background: white;
+  font-size: 12px;
+  color: #888;
+  font-weight: bold;
+} 
+.dust-class label span{
+  color: #da4841;
+  vertical-align: -1px;
+}
+.dust-class textarea{
+    width: 250px;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    border-radius: 8px;
+    padding: 15px 20px 0;
+    margin-top: 12px;
+}
+
+/* 고객계정 번호업데이트 */
+.numberUpdate {
+    width: 1520px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px
+}
+
+.numberUpdate>.phoneNumber {
+    width: 1520px;
+    height: 450px;
+    margin-top: 10px;
+    padding: 20px 80px 0 40px;
+    border: 2px solid #565788;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 8px 8px 10px #888
+}
+
+.phoneNumber>.numberUpdate_form {
+    display: block
+}
+.numberUpdate > .phoneNumber > h3{
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.numberUpdate_form > form {
+    position: relative;
+}
+.numberUpdate_form > form > button {
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    color: #565788;
+    font-weight: 900;
+    border-image-source: linear-gradient(to right, #565788 0%, #505a75 100%);
+    border-image-width: 2px;
+    border-image-slice: 1;
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+}
+
+.numberUpdate_form>form>button:hover {
+    background: linear-gradient(to bottom, #565788 0%, #505a75 100%);
+    color: #fff
+}
+
+.dust-class input{
+    width: 250px;
+    border: 1px solid #dddddd;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.8;
+    border-radius: 8px;
+    padding: 15px 20px 0;
+    margin-top: 12px;
+}
+
+
+.numberUpdate_form select{
+    width: 250px;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    border-radius: 8px;
+    padding: 15px 20px 0;
+    height: 48px;
+    position: relative;
+    top: -8px;
+}
