@@ -14,8 +14,8 @@ if (!$user_idx) {
 if (isset($_POST['numberUpdate']) && !empty($_POST['numberUpdate'])) {
     $phone_numbers = $_POST['numberUpdate'];
     
-    // 입력된 번호들을 배열로 변환 (줄바꿈으로 구분)
-    $numbers = array_filter(array_map('trim', explode("\n", $phone_numbers)));
+    // 입력된 번호들을 배열로 변환 (공백과 줄바꿈으로 구분)
+    $numbers = array_filter(array_map('trim', preg_split('/[\s\n]+/', $phone_numbers)));
     
     // JSON 배열로 변환
     $json_numbers = json_encode($numbers);
@@ -31,8 +31,8 @@ if (isset($_POST['numberUpdate']) && !empty($_POST['numberUpdate'])) {
 if (isset($_POST['addnumber']) && !empty($_POST['addnumber'])) {
     $phone_numbers = $_POST['addnumber'];
     
-    // 입력된 번호들을 배열로 변환 (줄바꿈으로 구분)
-    $new_numbers = array_filter(array_map('trim', explode("\n", $phone_numbers)));
+    // 입력된 번호들을 배열로 변환 (공백과 줄바꿈으로 구분)
+    $new_numbers = array_filter(array_map('trim', preg_split('/[\s\n]+/', $phone_numbers)));
     
     // 먼저 현재 번호들을 가져옴
     $sql = "SELECT phone_numbers FROM member WHERE idx = ?";
@@ -78,8 +78,8 @@ if (isset($_POST['addnumber']) && !empty($_POST['addnumber'])) {
 if (isset($_POST['deleteNumber']) && !empty($_POST['deleteNumber'])) {
     $phone_numbers = $_POST['deleteNumber'];
     
-    // 입력된 번호들을 배열로 변환 (줄바꿈으로 구분)
-    $delete_numbers = array_filter(array_map('trim', explode("\n", $phone_numbers)));
+    // 입력된 번호들을 배열로 변환 (공백과 줄바꿈으로 구분)
+    $delete_numbers = array_filter(array_map('trim', preg_split('/[\s\n]+/', $phone_numbers)));
     
     // 먼저 현재 번호들을 가져옴
     $sql = "SELECT phone_numbers FROM member WHERE idx = ?";
