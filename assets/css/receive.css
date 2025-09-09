@@ -1,0 +1,147 @@
+.user_info {
+    width: 80%;
+    min-width: 1280px;
+    margin: 20px auto 0;
+    text-align: right;
+    color: #327a81;
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.user_info > div{
+    margin-top: 10px;
+}
+
+.user_info form {
+    display: inline;
+}
+
+.user_info  form button {
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    background-color: wheat;
+    cursor: pointer;
+}
+
+.user_info form button:active {
+    background-color: rgb(170, 153, 121);
+    color: white;
+}
+
+
+#copyTxtPN:active {
+    background-color: aqua !important;
+}
+
+#copyTxtPN:hover {
+    background-color: rgb(143, 219, 108);
+}
+
+#copyTxtCN:active {
+    background-color: aqua !important;
+}
+
+#copyTxtCN:hover {
+    background-color: rgb(143, 219, 108);
+}
+
+
+.activation_info {
+    width: 100%;
+    margin: 20px auto 0;
+    outline: none;
+    caret-color: transparent;
+    user-select: none;
+    position: relative;
+}
+
+.activation_info > #copyMessage{
+    position: fixed;
+}
+
+
+.activation_info>table {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.activation_info>table>tbody tr td {
+    border: solid 1px #ccc;
+}
+
+.activation_info>table>tbody tr td:nth-of-type(1) {
+    cursor: pointer;
+}
+
+.activation_info>table>tbody tr td:nth-of-type(3) {
+    cursor: pointer;
+}
+
+
+
+table {
+    width: 80%;
+    min-width: 1280px;
+    border-radius: 10px;
+    table-layout: fixed;
+    background-color: white;
+    box-shadow: 8px 8px 10px #888;
+    font-size: 16;
+    font-weight: 900;
+    color: #327a81;
+}
+
+table thead tr th {
+    background-color: #327a81;
+    color: white;
+}
+
+table thead tr th,
+td {
+    border: 1px solid black;
+    padding: 2px 5px;
+}
+
+table tbody tr td {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+table tbody tr:hover {
+    background-color: #bbe9d2;
+}
+
+#copyMessage {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    animation: fadeOut 0.8s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
