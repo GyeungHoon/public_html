@@ -458,22 +458,42 @@ input::placeholder{
 }
 
 .numberUpdate>.phoneNumber {
-    width: 1520px;
+    width: 760px;
     height: 450px;
     margin-top: 10px;
     padding: 20px 80px 0 40px;
     border: 2px solid #565788;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 8px 8px 10px #888
 }
+
 
 .phoneNumber>.numberUpdate_form {
     display: block
 }
 .numberUpdate > .phoneNumber > h3{
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.numberUpdate>.memberPhoneNumber {
+    width: 760px;
+    height: 450px;
+    margin-top: 10px;
+    padding: 20px 80px 0 40px;
+    border: 2px solid #565788;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 8px 8px 10px #888
+}
+
+
+.memberPhoneNumber>.numberUpdate_form {
+    display: block
+}
+.numberUpdate > .memberPhoneNumber > h3{
     font-size: 16px;
     font-weight: 900;
     text-align: center;

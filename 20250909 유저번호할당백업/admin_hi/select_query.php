@@ -588,7 +588,7 @@ require_once('../common/config.php');
 			</div>
 
 
-			<div class=phoneNumber>
+			<div class=memberPhoneNumber>
 				<h3>고객보유번호</h3>
 				<div>
 					<?php
